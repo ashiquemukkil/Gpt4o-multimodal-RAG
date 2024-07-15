@@ -1,0 +1,10 @@
+Extract the following elements from page of the provided PDF document:
+
+## Extraction Instructions:
+- Text: Extract all textual content, preserving the original format, and return as plain text or formatted text (HTML, Markdown).
+- Images: Extract all images, maintaining original resolution and format, and return as JPEG or PNG files.
+- Graphs: Extract all graphs, providing the graphical representation as SVG or PNG files and a description in plain text.
+- Tables: Extract all tables, preserving structure, and return as CSV, JSON, or Excel files.
+
+## Additional Notes:
+- Ensure accuracy in the extraction process, avoiding any data loss or corruption.

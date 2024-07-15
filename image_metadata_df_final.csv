@@ -1,0 +1,27 @@
+,file_name,page_num,img_num,img_path,img_desc
+0,Google Cloud TPU blog8pages.pdf,2,1,image//Google Cloud TPU blog8pages.pdf_image_1_0_4.jpeg,"Graph showing the growth of LLM model sizes over time. The x-axis represents the publication date from June 12, 2017 to October 17, 2022, and the y-axis represents training compute in betaFLOPs. Notable models include Transformer, GPT, BERT-Large, GPT-2, ALBERT-xxlarge, T5-3B, T5-11B, GPT-3 175B (davinci), DALL-E, Chinchilla, AlphaCode, AlexaTM 20B, GPT-NeoX-20B, Whisper, NLLB, PaLM, and PaLM 2. The graph indicates a significant increase in both model size and training compute over time."
+1,Google Cloud TPU blog8pages.pdf,4,1,image//Google Cloud TPU blog8pages.pdf_image_3_0_18.jpeg,"Cloud TPU Multislice Training diagram detailing two training stacks:
+
+1. **Cloud TPU JAX Training Stack**:
+   - ML Cluster & Job Orchestration: XPK (Accelerated Processing Kit)
+   - Container Orchestration: GKE
+   - LLM Reference Implementation: MaxText
+   - Core Libraries: JAX Core Libraries (Optax, AQT, Orbax, Flax)
+   - Framework: JAX
+   - Compiler/Runtime: XLA
+   - Hardware: TPU
+
+2. **Cloud TPU PyTorch Training Stack**:
+   - ML Cluster & Job Orchestration: XPK (Accelerated Processing Kit)
+   - Container Orchestration: GKE
+   - LLM Reference Implementation: PyTorch & Hugging Face Libraries
+   - Framework: PyTorch/PyTorch XLA
+   - Compiler/Runtime: XLA
+   - Hardware: TPU"
+2,Google Cloud TPU blog8pages.pdf,7,1,image//Google Cloud TPU blog8pages.pdf_image_6_0_90.jpeg,"Table showing MaxText Model Configurations with columns: parameters, embed dim, num heads, mlp dim, num layers, head dim, seq length, per device batch (seq), sharding across pods, and sharding within pods. Rows are for 16B, 32B, 64B, and 128B configurations, each having specific values for these fields."
+3,Google Cloud TPU blog8pages.pdf,12,1,image//Google Cloud TPU blog8pages.pdf_image_11_0_207.jpeg,"Image of a mathematical formula. The formula calculates the observed TFLOP per chip per second, integrating learnable weights, flops, and attention flops, normalized by step time. Variables include Number of tokens per chip per step, 6N, and 124HQT."
+4,Google Cloud TPU blog8pages.pdf,12,2,image//Google Cloud TPU blog8pages.pdf_image_11_1_208.jpeg,Mathematical formula with the equation for MFU (Metric For Performance) defined as the ratio of observed TFLOP/chip/s to peak hardware TFLOP/chip/s.
+5,Google Cloud TPU blog8pages.pdf,13,1,image//Google Cloud TPU blog8pages.pdf_image_12_0_212.jpeg,Mathematical formula for EMFU (Energy Metric For Utilization) calculation: EMFU equals observed TOP (Tera Operations Per second) per chip per second divided by peak hardware TFLOP (Tera FLOP) per chip per second.
+6,Google Cloud TPU blog8pages.pdf,14,1,image//Google Cloud TPU blog8pages.pdf_image_13_0_216.jpeg,"Summary: This image displays a table titled ""MaxText LLM Training Results,"" comparing BF16 and INT8 quantization training across various configurations. Elements include BF16/INT8 Training, parameters (ranging from 16B to 128B), TPU v5e pods (values 1 to 199), TPU v5e chips (values 256 to 50944), Observed Perf/chip (ranging from 88 to 132 TFLOP/s), Total observed Perf (values 0.03 to 5.32 exa-FLOP/s or exa-OP/s), and EMFU percentage (values 44.67% to 66.86%). The INT8 Quant row shows unique results with parameters 32B, 199 TPU v5e pods, 50944 TPU v5e chips, 104.4 TOP/s observed perf/chip, 5.32 exa-OP/s total observed perf, and 52.99% EMFU."
+7,Google Cloud TPU blog8pages.pdf,15,1,image//Google Cloud TPU blog8pages.pdf_image_14_0_220.jpeg,"Graph titled ""Time to Start Job vs. Number of Chips"" with Time (Seconds) on the vertical axis and Number of Chips on the horizontal axis. The graph features a series of blue data points showing a positive linear relationship, with time increasing as the number of chips increases."
+8,Google Cloud TPU blog8pages.pdf,16,1,image//Google Cloud TPU blog8pages.pdf_image_15_0_224.jpeg,"Graph showing TPU v5e efficient scaling with 32B LLM. The x-axis represents the number of v5e chips ranging from 256 to 50944. The y-axis represents the Scaling Factor. Two data series are displayed: ""v5e Measured"" and ""Ideal Scaling"". As the number of v5e chips increases, the scaling factor also increases, with the measured scaling factors closely following the trend of ideal scaling."

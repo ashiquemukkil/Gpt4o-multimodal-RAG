@@ -1,0 +1,11 @@
+streamlit
+openai
+langchain==0.1.16
+pytube 
+pydub
+openai-whisper
+langchain_chroma
+unstructured
+pdfminer
+chromadb
+langchain_openai 
